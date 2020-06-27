@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button + button {
+ margin-left: 2rem;
+}
+
+.bgr {
+    background-color: beige;
+    padding: 2rem;
+}
+
+li {
+    list-style: none;
+    line-height: 1.4;
+}
